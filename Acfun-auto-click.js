@@ -31,7 +31,7 @@
     document.addEventListener("keydown", (event) => {
         if (event.altKey && event.key === ",") {
             clearInterval(auto_click_interval)
-            if(timeout < 10000){
+            if(timeout < 60000){
                 timeout += 100
             }
             auto_click_interval = setInterval(autoClick, timeout)
