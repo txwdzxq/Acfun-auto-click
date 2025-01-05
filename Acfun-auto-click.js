@@ -1,4 +1,5 @@
 // ==UserScript==
+// @name                Acfun自动点击AC娘
 // @name:zh-CN          Acfun自动点击AC娘
 // @name:en             Acfun auto click
 // @namespace           http://tampermonkey.net/
