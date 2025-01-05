@@ -1,5 +1,6 @@
     // ==UserScript==
     // @name         acfun auto click
+    // @name         chi-zh
     // @namespace    http://tampermonkey.net/
     // @version      2024-12-22
     // @description  acfun auto click!
@@ -22,5 +23,9 @@
         setInterval(()=>{
             document.querySelector("div[class='fr no-select footer-avatar-ac']").dispatchEvent(mouse_click_event)
         },1000)
+
+        document.addEventListener("keydown", (event) => {
+            console.log(event)
+        })
     })();
 
