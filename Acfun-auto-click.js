@@ -1,6 +1,6 @@
 // ==UserScript==
+// @name            Acfun auto click
 // @name:zh-CN      Acfun自动点击AC娘
-// @name:en         Acfun auto click
 // @namespace       http://tampermonkey.net/
 // @version         2024-12-22
 // @description     Click!
