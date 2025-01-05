@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name            Acfun auto click
-// @name:zh-CN      Acfun自动点击AC娘
-// @namespace       http://tampermonkey.net/
-// @version         2024-12-22
-// @description     点!
-// @description:en  Click!
-// @author          umekoj
-// @match           https://www.acfun.cn/
-// @icon            https://cdn.aixifan.com/ico/favicon.ico
-// @grant           none
-// @license         MIT
+// @name:zh-CN          Acfun自动点击AC娘
+// @name:en             Acfun auto click
+// @namespace           http://tampermonkey.net/
+// @version             2024-12-22
+// @description:zh-CN   点!
+// @description:en      Click!
+// @author              umekoj
+// @match               https://www.acfun.cn/
+// @icon                https://cdn.aixifan.com/ico/favicon.ico
+// @grant               none
+// @license             MIT
 // ==/UserScript==
 
 (function () {
