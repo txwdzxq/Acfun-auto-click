@@ -3,7 +3,8 @@
 // @name:zh-CN      Acfun自动点击AC娘
 // @namespace       http://tampermonkey.net/
 // @version         2024-12-22
-// @description     Click!
+// @description     点!
+// @description:en  Click!
 // @author          umekoj
 // @match           https://www.acfun.cn/
 // @icon            https://cdn.aixifan.com/ico/favicon.ico
