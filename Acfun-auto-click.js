@@ -3,7 +3,7 @@
 // @name:zh-CN          Acfun自动点击AC娘
 // @name:en             Acfun auto click
 // @namespace           http://tampermonkey.net/
-// @version             2024-12-22
+// @version             2024-12-28
 // @description:zh-CN   点!
 // @description:en      Click!
 // @author              umekoj
