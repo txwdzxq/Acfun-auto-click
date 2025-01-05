@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         acfun auto click
-// @name         chi-zh
-// @namespace    http://tampermonkey.net/
-// @version      2024-12-22
-// @description  acfun auto click!
-// @author       umekoj
-// @match        https://www.acfun.cn/
-// @icon         https://cdn.aixifan.com/ico/favicon.ico
-// @grant        none
-// @license      MIT
+// @name:zh-CN      Acfun自动点击AC娘
+// @name:en         Acfun auto click
+// @namespace       http://tampermonkey.net/
+// @version         2024-12-22
+// @description     Click!
+// @author          umekoj
+// @match           https://www.acfun.cn/
+// @icon            https://cdn.aixifan.com/ico/favicon.ico
+// @grant           none
+// @license         MIT
 // ==/UserScript==
 
 (function () {
