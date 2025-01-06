@@ -45,6 +45,14 @@
             }
             auto_click_interval = setInterval(autoClick, timeout)
         }
+        if (event.altKey && event.key === "x") {
+            if(auto_click_interval){
+                clearInterval(auto_click_interval)
+                auto_click_interval = 0
+            }else{
+                auto_click_interval = setInterval(autoClick, timeout)
+            }
+        }
     })
 })();
 
