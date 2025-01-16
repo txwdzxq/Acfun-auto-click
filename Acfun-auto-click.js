@@ -7,7 +7,7 @@
 // @description:zh-CN   点!
 // @description:en      Click!
 // @author              umekoj
-// @match               https://www.acfun.cn/
+// @match               https://www.acfun.cn/*
 // @icon                https://cdn.aixifan.com/ico/favicon.ico
 // @grant               none
 // @license             MIT
