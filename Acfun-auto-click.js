@@ -22,13 +22,23 @@
         'clientX': 100,
         'clientY': 100
     });
-    const footer_avatar_ac = document.querySelector("div[class='fr no-select footer-avatar-ac']")
+    let footer_avatar_ac = document.querySelector("div[class='fr no-select footer-avatar-ac']")
     function autoClick() {
         footer_avatar_ac.dispatchEvent(mouse_click_event)
     }
 
     let timeout = 1000
-    let auto_click_interval = setInterval(autoClick, timeout)
+    let auto_click_interval;
+
+    const footer_avatar_ac_interval = setInterval(() => {
+        console.log(footer_avatar_ac)
+        if(footer_avatar_ac){
+            clearInterval(footer_avatar_ac_interval)
+            auto_click_interval = setInterval(autoClick, timeout)
+        }else{
+            footer_avatar_ac = document.querySelector("div[class='fr no-select footer-avatar-ac']")
+        }
+    },1000)
 
     document.addEventListener("keydown", (event) => {
         if (event.altKey && event.key === ",") {
