@@ -53,6 +53,7 @@
             }
             auto_click_interval = setInterval(autoClick, timeout)
         }
+        // pause & continue
         if (event.altKey && event.key === "x") {
             if(auto_click_interval){
                 clearInterval(auto_click_interval)
