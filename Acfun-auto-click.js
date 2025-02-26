@@ -3,7 +3,7 @@
 // @name:zh-CN          Acfun自动点击AC娘
 // @name:en             Acfun auto click
 // @namespace           http://tampermonkey.net/
-// @version             2025-01-23
+// @version             2025-02-23
 // @description:zh-CN   点!
 // @description:en      Click!
 // @author              umekoj
@@ -31,7 +31,6 @@
     let auto_click_interval;
 
     const footer_avatar_ac_interval = setInterval(() => {
-        console.log(footer_avatar_ac)
         if(footer_avatar_ac){
             clearInterval(footer_avatar_ac_interval)
             auto_click_interval = setInterval(autoClick, timeout)
