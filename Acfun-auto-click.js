@@ -9,6 +9,7 @@
 // @author              umekoj
 // @match               https://www.acfun.cn/*
 // @icon                https://cdn.aixifan.com/ico/favicon.ico
+// @grant               none
 // @license             MIT
 // ==/UserScript==
 
