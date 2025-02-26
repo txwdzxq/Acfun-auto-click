@@ -29,6 +29,7 @@
     let timeout = 1000
     let auto_click_interval;
 
+    // get avatar element
     const footer_avatar_ac_interval = setInterval(() => {
         if(footer_avatar_ac){
             clearInterval(footer_avatar_ac_interval)
